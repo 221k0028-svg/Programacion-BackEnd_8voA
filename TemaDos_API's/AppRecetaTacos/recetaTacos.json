@@ -1,0 +1,54 @@
+[
+  {
+    "id": "0001",
+    "tipo": "taco",
+    "nombre": "Taco lechon",
+    "precio": 20.00,
+    "ingredientes": {
+      "proteina": { "nombre": "puerco", "preparacion": "Horneado" },
+      "salsa": { "nombre": "Tomate verde", "picor": "Medio" },
+      "acompañamientos": [
+        { "nombre": "Cebolla", "cantidad": "1 cucharada" }
+      ]
+    }
+  },
+  {
+    "id": "0002",
+    "tipo": "taco",
+    "nombre": "Taco de pollo",
+    "precio": 25.00,
+    "ingredientes": {
+      "proteina": { "nombre": "pollo", "preparacion": "Asado" },
+      "salsa": { "nombre": "Salsa roja", "picor": "Alto" },
+      "acompañamientos": [
+        { "nombre": "Cilantro", "cantidad": "1 cucharada" }
+      ]
+    }
+  },
+  {
+    "id": "0003",
+    "tipo": "taco",
+    "nombre": "Taco de pavo",
+    "precio": 22.00,
+    "ingredientes": {
+      "proteina": { "nombre": "pavo", "preparacion": "Horneado" },
+      "salsa": { "nombre": "Salsa verde", "picor": "Bajo" },
+      "acompañamientos": [
+        { "nombre": "Cebolla", "cantidad": "1 cucharada" }
+      ]
+    }
+  },
+  {
+    "id": "0004",
+    "tipo": "taco",
+    "nombre": "Taco de res",
+    "precio": 28.00,
+    "ingredientes": {
+      "proteina": { "nombre": "res", "preparacion": "A la plancha" },
+      "salsa": { "nombre": "Guacamole", "picor": "Medio" },
+      "acompañamientos": [
+        { "nombre": "Limón", "cantidad": "1 pieza" }
+      ]
+    }
+  }
+]

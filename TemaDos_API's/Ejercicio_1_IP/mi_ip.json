@@ -1,0 +1,27 @@
+{
+    "ip": "129.222.201.169",
+    "isp": {
+        "asn": "AS14593",
+        "org": "Space Exploration Technologies Corporation",
+        "isp": "SpaceX Starlink"
+    },
+    "location": {
+        "country": "Mexico",
+        "country_code": "MX",
+        "city": "Mexico City (San Lorenzo Atemoaya)",
+        "state": "Mexico City",
+        "zipcode": "16400",
+        "latitude": 19.263541013951894,
+        "longitude": -99.10256441419742,
+        "timezone": "America/Mexico_City",
+        "localtime": "2026-03-19T05:04:43"
+    },
+    "risk": {
+        "is_mobile": true,
+        "is_vpn": false,
+        "is_tor": false,
+        "is_proxy": false,
+        "is_datacenter": false,
+        "risk_score": 0
+    }
+}

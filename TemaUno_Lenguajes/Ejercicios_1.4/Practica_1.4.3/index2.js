@@ -23,7 +23,7 @@ function registrador(req, res, next) {
     next(); // pasa al siguiente middleware o ruta
 }
 
-app.use(registrador);
+app.use(registrador)
 
 app.get("/", (req, res) => {
     res.sendFile(__dirname + "/public/index.html");
