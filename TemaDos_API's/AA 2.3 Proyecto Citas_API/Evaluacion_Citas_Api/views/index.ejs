@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evaluación | Explorador de Especies</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <h1> Explorando Tipos de Gatitos </h1>
+        
+        <div class="card">
+            <div class="image-container">
+                <img src="<%= imagen %>" alt="Gatito aleatorio">
+            </div>
+            
+            <div class="info-container">
+                <h2><%= nombre %></h2>
+                <span class="badge"><%= origen %></span>
+                <p class="description">"<%= temperamento %>"</p>
+            </div>
+        </div>
+
+        <a href="/" class="btn-refresh">¿Ver otro?</a>
+    </div>
+
+</body>
+</html>
